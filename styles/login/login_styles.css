@@ -1,0 +1,54 @@
+
+label {
+    width:180px;
+    margin-top: 3px;
+    display:inline-block;
+    padding:3px;
+	font-size:17px;
+}
+input[type="text"],input[type="password"]{
+	
+	font-size:17px;
+	width:250px;
+    height:30px;
+    padding:5px 30px 2px 2px;
+	border:1px solid #aaa;
+    box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+    border-radius:2px;
+}
+input[type="text"]:focus {
+    background: #fff;
+    border:1px solid #555;
+    box-shadow: 0 0 3px #aaa;
+}
+ input:required, textarea:required{
+    background: #fff url(redstar.png) no-repeat 98% center;
+   // box-shadow: 0 0 5px #5cd053;
+    //border-color: #28921f;
+}
+ input[type="text"]:focus:invalid, textarea:focus:invalid{ 
+    background: #fff url(red.png) no-repeat 98% center;
+    box-shadow: 0 0 5px #d45252;
+    border-color: #b03535;
+}
+ input[type="text"]:required:valid, textarea:required:valid{ 
+    background: #fff url(gtick.png) no-repeat 98% center;
+    box-shadow: 0 0 5px #5cd053;
+    border-color: #28921f;
+}
+.login_form input[type="text"],.login_form input[type="password"]{
+	font-size:13px;
+	width:150px;
+    height:20px;
+    padding:5px 0px 2px 2px;
+	border:1px solid #aaa;
+	border-radius:4px;
+    box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+}
+
+#errorDiv{
+	background:#ff4d4d;
+	margin:10px;
+	border-radius:10px;
+	padding:10px;
+}

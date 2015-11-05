@@ -1,0 +1,213 @@
+
+*:focus{outline:none;} /* focus on any line input or button wont create any outline*/
+body {font: 14px/21px "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;} 
+#create-event-form label {font-family:Georgia, Times, "Times New Roman", serif;}
+
+
+#create-event-form {	
+}
+#create-event-form ul {
+    list-style-type:none;
+    margin:0px;
+    padding:0px;
+	font-size:13px;
+}
+
+#create-event-form li{
+    padding:12px;
+    border-bottom:1px solid #eee;
+    position:relative;
+}
+
+
+#create-event-form li:first-child, #create-event-form li:last-child {
+	border-bottom:1px solid #777;
+}
+#message-report{
+	padding:40px 10%;
+	margin:10px 10%;
+	font-weight:20;
+	font-size:20px;
+	background:#4db84d;
+	color:green;
+	border-radius:10px;
+	text-shadow:1px 1px 1px black;
+}
+#show_form_again{
+	color:blue;
+	font-weight:bold;
+	cursor:pointer;
+}
+#create-event-form h1,#message-report h1 {  /* for the form headlines*/    
+	font-family:Georgia, Times, "Times New Roman", serif;
+	color:#d45210;
+	display: inline;
+	text-shadow:-1px -1px 1px red;
+
+}
+.required_notification {
+	font-size: 11px;
+    color:#d45252;
+    margin:-20px 0 0 0;
+    display:inline;
+    float:right;
+	margin-right:8px;
+}
+
+#create-event-form label {
+    width:150px;
+    margin-top: 3px;
+    display:inline-block;
+    padding:3px;
+}
+#create-event-form input[type="text"],#create-event-form li textarea,#create-event-form select{
+	
+	width:500px;
+    height:30px;
+    padding:5px 30px 2px 2px;
+	border:1px solid #aaa;
+    box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+    border-radius:2px;
+}
+#create-event-form li textarea{
+	height:100px;
+	width:500px;
+}
+#create-event-form input[type="text"]:focus ,#create-event-form textarea:focus,#create-event-form select:focus{
+    background: #fff;
+    border:1px solid #555;
+    box-shadow: 0 0 3px #aaa;
+	
+}
+#create-event-form input:required,#create-event-form textarea:required,#create-event-form select:required{
+    background: #fff url(redstar.png) no-repeat 98% center;
+   // box-shadow: 0 0 5px #5cd053;
+    //border-color: #28921f;
+}
+#create-event-form input[type="text"]:focus:invalid,#create-event-form textarea:focus:invalid,#create-event-form select:invalid{ 
+    background: #fff url(red.png) no-repeat 98% center;
+    box-shadow: 0 0 5px #d45252;
+    border-color: #b03535;
+}
+#create-event-form input[type="text"]:required:valid,#create-event-form textarea:required:valid,#create-event-form select:required:valid{ 
+    background: #fff url(gtick.png) no-repeat 98% center;
+    box-shadow: 0 0 5px #5cd053;
+    border-color: #28921f;
+}
+.small{
+	width:200px;
+}
+ul {
+
+list-style-type:none;
+position:center;
+}
+#show_options {
+margin-right:30px;
+margin-left:100px;
+}
+#create-event-form{  /*for the form in which event details will be filled*/
+	padding:10px 10%;
+	display:none;
+	background:white;
+}
+#add-finish-time,#delete-finish-time{
+	float:right;
+	color:blue;
+	font-weight:bold;
+}
+#f_timing,#options,#hide_options{
+	display:none;
+}
+#options{
+	margin:5px 20px 0px 20px;
+}
+#options table td{
+	border-bottom:1px solid grey;
+	font-size:14px;
+	padding:10px;
+	position:relative;
+	margin:10px;
+	text-shadow:1px 1px 1px lightgrey;
+}
+#options table td span{
+	font-weight:bold;
+	cursor:pointer;
+}
+
+#create-event-form ul{
+	text-shadow:1px 1px 1px lightgrey;
+}
+#options table td span:hover{
+	color:green;
+}
+#org_table_cont,#get_logo,#link_table_cont,#hash_table_cont,#json{
+	display:none;
+}
+#add_more_org,#add_more_link,#add_mor_hash{
+	color:blue;
+	font-weight:normal;
+	cursor:pointer;
+}
+#org_table div,#link_table div,#hash_table div{
+	padding:10px;
+}
+.userlist{
+}
+
+#org_table input[type="text"],#link_table{
+	display:none;
+}
+#org_edit,#link_edit{
+	width:100%;
+}
+#org_table,#link_table{
+	width:100%;
+	max-height:200px;
+	overflow-y:auto;
+	overflow-x:hidden;
+}
+#org_table input[type="text"]:focus,#link_table input[type="text"]:focus{
+	outline:none;
+}
+
+
+.options-items{
+	border:1px solid white;
+	padding:10px;
+}
+
+
+.other-option-item{
+	cursor:pointer;
+	font-weight:bold;
+	padding:10px;
+	margin:10px
+}
+#options {
+	background:#eee;
+	padding:30px;
+	margin:10px;
+}
+
+.user-name{
+	color:blue;
+}
+.user-mail{
+	color:grey;
+}
+.icon{
+	width:70px;
+	height:40px;
+}
+#userSuggestion{
+	width:70%;
+	padding:0px 30px;
+}
+.row-of-user-results{
+	background:#ddd;
+	cursor:pointer;
+}
+.row-of-user-results:hover{
+	background:#fff;
+}

@@ -1,0 +1,9 @@
+::-webkit-scrollbar              { background:none;width:10px;}
+::-webkit-scrollbar-thumb        { background:#c0c0c0;border:1px solid white;opacity:0.7;}
+::-webkit-scrollbar-thumb:hover { background:#999;}
+::-webkit-scrollbar-track        {  visibility:hidden;}
+
+::-webkit-scrollbar-track-piece  {  visibility:hidden;}
+
+::-webkit-scrollbar-corner       { /* 6 */ visibility:hidden; }
+::-webkit-resizer                { /* 7 */ visibility:hidden;}

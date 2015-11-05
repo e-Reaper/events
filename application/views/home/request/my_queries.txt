@@ -1,0 +1,3 @@
+SELECT distinct(event.event_id),hashtag_details.hashtag FROM event,hashtag_details where event.title like '%bit%' or hashtag_details.hashtag like '%bit%'
+
+

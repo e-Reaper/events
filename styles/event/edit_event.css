@@ -1,0 +1,57 @@
+label{
+	width:200px;
+}
+.show-edit-details-button{
+	width:100%;
+	font-weight:bold;
+	background:#ccc;
+	padding:10px;
+	margin:10px 0px 0px;
+}
+
+#edit-event-details,#edit-organiser-details,#edit-link-details{
+	width:100%;
+	padding:10px;
+	display:none;
+	background:#eee;
+}
+#edit-event-details input[type="text"]{
+	width:100%;
+}
+
+.show-editable-form,.hide-editable-form{
+	font-size:30px;
+	position:relative;
+	top:-10px;
+	color:lightblue;
+	cursor:pointer;
+	
+}
+.hide-editable-form{
+	display:none;
+}
+.show-editable-form a,.hide-editable-form a{
+	text-decoration:none;
+}
+
+.user-name{
+	color:blue;
+}
+.user-mail{
+	color:grey;
+}
+.icon{
+	width:70px;
+	height:40px;
+}
+#userSuggestion{
+	width:70%;
+	padding:0px 30px;
+}
+.row-of-user-results{
+	background:#ddd;
+	cursor:pointer;
+}
+.row-of-user-results:hover{
+	background:#fff;
+}

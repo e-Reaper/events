@@ -1,0 +1,42 @@
+.tiny-icon{
+	width:40px;
+	height:40px;
+}
+.event-icon{
+	width:100px;
+	height:100px;
+}
+#src-res{
+	max-height:400px;
+	overflow-y:auto;
+	overflow-x:hidden;
+	background:rgb(228, 229, 240);
+	box-shadow:1px 1px 3px 1px grey;
+}
+.searched-items{
+	padding:1px;
+	color:blue;
+	cursor:pointer;
+	padding:0px 0px 5px 0px;
+}
+.searched-items .h3{
+	color:blue;
+}
+.searched-items span{
+	color:black;
+	font-size:20px;
+	text-shadow:1px 1px 1px #eee;
+}
+.searched-items img{
+	width:100px;
+	height:50px;
+}
+.searched-items div{
+}
+.searched-items:hover{
+	background:#fefefe;
+	color:white;
+}
+#src-res,#json1{
+	display:none;
+}
